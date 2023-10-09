@@ -3,7 +3,7 @@
 
 To run the code , use command `make` and then `./shell` and use `exit` to quit the program
 
-In my shell, control starts at main, and here it first calls clear function( to make it nicer experince) and than a loop occurs (a standard for calling prompt multiple times till user exits). Here -
+In my shell, control starts at main, and here it first calls clear function( to make it nicer experience) and than a loop occurs (a standard for calling prompt multiple times till user exits). Here -
 1. prompt() - this prints shell information as appear in bourne shell
 2. taking input - to take input i have made getline and make_token function, which read input of shell and tokenise respectively. What i did is made a struct token cantaining parsed strings and a size attribute.
 3. function matcher - i call this function and it decides which command is asked and sends control to that unit.
